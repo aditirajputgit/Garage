@@ -1,0 +1,113 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+  color: white;
+  background-color: grey;
+}
+
+.about-us-button {
+  font-size: 14px;
+  width: 150px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 6px;
+  background-color: rgb(209, 58, 83);
+  margin-top: 20px;
+}
+
+.About-section {
+  display: flex;
+  justify-content: space-around;
+  max-width: 95%;
+  margin: 0 auto;
+  margin: 30px;
+  padding: 30px;
+  padding-top: 40px;
+  animation-duration: 1s;
+  transition: ease-out;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 969px) {
+  .product-sections {
+    padding: 20px;
+    width: 100%;
+  }
+  .About-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+    margin: opx;
+    padding: 0px;
+    padding-top: 0px;
+  }
+  .about1 {
+    padding-right: 10px;
+  }
+}
+
+.about1 {
+  margin-right: 60px;
+  padding-right: 40px;
+  animation-fill-mode: backwards;
+  transition: margin 5s;
+}
+
+.about-section {
+  font-size: 18px;
+  margin: 15px;
+  font-family: Georgia, serif;
+}
+
+.about-para {
+  font-size: 35px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.about3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 140px;
+  text-align: center;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: reverse;
+  transition: ease-in;
+}
+
+p {
+  padding: 15px;
+}
+
+.about-box {
+  background-color: rgb(255, 249, 238);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 140px;
+  text-align: center;
+  margin: 100px;
+  animation: normal;
+}
